@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital@1&display=swap");
+ body{font-family:"Merriweather",400 Italic; 
+background-image: url("https://wallpapershome.com/images/wallpapers/new-zealand-5120x2880-5k-4k-wallpaper-8k-mountain-sunset-flowers-field-4691.jpg");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+height: 100vh;
+overflow: hidden;
+color: white;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+h1{ font-size: 60px; color:}
+.countdown { display: flex; transform: scale(2); }
+.time {margin: 20px; display: flex; flex-direction:column; align-items: center;}
+.year{ font-size: 200px; padding-top: 50px; opacity: 0.3;} 
